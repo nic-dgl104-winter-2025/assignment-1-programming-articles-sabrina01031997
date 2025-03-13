@@ -145,3 +145,15 @@ For students in DGL 104, adopting these practices early will help build scalable
 
 ---
 
+## References
+
+1. **Wikipedia: Code Review** - [https://en.wikipedia.org/wiki/Code_review](https://en.wikipedia.org/wiki/Code_review)
+2. **GitHub: How to Improve Code with Code Reviews** - [https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews](https://github.com/resources/articles/software-development/how-to-improve-code-with-code-reviews)
+3. **GitHub: List of Code Review Tips** - [https://github.com/reviewpad/code-review-tips](https://github.com/reviewpad/code-review-tips)
+4. **YouTube: How To REALLY Do Code Reviews** - [https://www.youtube.com/watch?v=DYamyCSDtew](https://www.youtube.com/watch?v=DYamyCSDtew)
+5. **YouTube: How To Do Code Reviews** - [https://www.youtube.com/watch?v=EhEESITArnE](https://www.youtube.com/watch?v=EhEESITArnE)
+6. **GitHub: Pull Request Review Guide** - [https://github.com/mawrkus/pull-request-review-guide](https://github.com/mawrkus/pull-request-review-guide)
+7. **GitHub: Code Review Checklist** - [https://github.com/mgreiler/code-review-checklist](https://github.com/mgreiler/code-review-checklist)
+
+---
+
