@@ -113,5 +113,27 @@ $stmt->execute([$user_input]);
 
 ---
 
+## Code Review Tools
+Several tools help streamline the code review process:
+- **GitHub Pull Requests:** Enables inline commenting and approvals before merging.
+- **Bitbucket Code Review:** Provides detailed discussions and tracking of review history.
+- **Phabricator:** A suite of tools designed for code collaboration.
+- **Gerrit:** Popular for managing large-scale open-source code reviews.
 
+```bash
+# Example of a GitHub workflow
+# 1. Create a new branch
+$ git checkout -b feature-new
+
+# 2. Commit changes
+$ git add .
+$ git commit -m "Added new feature"
+
+# 3. Push to GitHub
+$ git push origin feature-new
+
+# 4. Open a Pull Request for review
+```
+
+---
 
