@@ -137,3 +137,11 @@ $ git push origin feature-new
 
 ---
 
+## Conclusion
+
+Code review is an essential practice in modern software development. It ensures code quality, promotes collaboration, and enforces best practices. By following structured review strategies—such as keeping reviews manageable, prioritizing readability, using automated tools, and providing constructive feedback—developers can significantly enhance the maintainability and security of their projects.
+
+For students in DGL 104, adopting these practices early will help build scalable and efficient applications. Whether working on personal projects, team collaborations, or open-source contributions, thoughtful and consistent code reviews will lead to better programming skills and higher-quality software.
+
+---
+
