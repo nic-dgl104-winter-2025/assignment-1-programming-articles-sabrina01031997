@@ -26,5 +26,82 @@ Code review is the process of examining code changes before integrating them int
 
 ---
 
+## Best Practices for Effective Code Reviews
+
+### 1. Keep Code Reviews Manageable
+Avoid large pull requests, as they can be overwhelming. Instead, break them into smaller, logical chunks to facilitate easier review.
+
+```javascript
+// Example of a simple function that is easy to review
+function addNumbers(a, b) {
+    return a + b;
+}
+```
+
+### 2. Prioritize Readability and Maintainability
+Readable code is easier to understand and modify. Use meaningful variable names, proper indentation, and comments where necessary.
+
+```javascript
+// Good practice: Clear variable names and inline comments
+function calculateTotalPrice(items) {
+    let total = 0;
+    items.forEach(item => {
+        total += item.price * item.quantity; // Calculate total cost
+    });
+    return total;
+}
+```
+
+### 3. Follow Coding Standards
+Adhering to coding standards ensures consistency and prevents unnecessary style-related conflicts.
+
+```java
+// Java example following best practices
+public class User {
+    private String name;
+    private int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+### 4. Use Automated Code Review Tools
+Automated tools can catch syntax errors and enforce best practices before manual review begins.
+
+```bash
+# Running ESLint on a JavaScript project
+eslint app.js
+```
+
+### 5. Provide Constructive Feedback
+Feedback should be clear, respectful, and actionable. Instead of vague criticism, suggest specific improvements.
+
+#### Example of a Poor Code Review Comment:
+"This function is bad. Fix it."
+
+#### Example of a Constructive Code Review Comment:
+"Consider renaming this function to `getUserData()` for clarity. Also, adding error handling with `try...catch` would improve robustness."
+
+### 6. Check for Security Vulnerabilities
+Code should be reviewed for potential security threats, such as SQL injection and cross-site scripting (XSS).
+
+```php
+// Insecure SQL query prone to injection attacks
+$user_input = $_GET['username'];
+$query = "SELECT * FROM users WHERE username = '$user_input'";
+```
+
+A secure approach using prepared statements:
+
+```php
+$stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
+$stmt->execute([$user_input]);
+```
+
+---
+
 
 
