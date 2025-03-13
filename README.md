@@ -1,4 +1,5 @@
-# The Importance of Code Review Practices in Software Development
+For this article, I have chosen Code Review Practices as my topic.
+# Code Review Practices in Software Development
 
 ## Introduction
 
